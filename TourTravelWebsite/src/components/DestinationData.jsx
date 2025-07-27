@@ -1,5 +1,5 @@
 import React from 'react'
-import './Dwstination.styles.css'
+import './destination.styles.css'
 function DestinationData(props) {
   return (
    <div className={props.className}>

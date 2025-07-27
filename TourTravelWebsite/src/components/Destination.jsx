@@ -1,5 +1,5 @@
 import React from 'react'
-import './Dwstination.styles.css'
+import './destination.styles.css'
 import DestinationData from './DestinationData'
 
 function Destination() {
