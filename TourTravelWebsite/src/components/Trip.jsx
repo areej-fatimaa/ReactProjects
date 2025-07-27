@@ -1,5 +1,5 @@
 import React from 'react'
-import './Trip.styles.css'
+import './trip.styles.css'
 import TripData from './TripData'
 
 function Trip() {
