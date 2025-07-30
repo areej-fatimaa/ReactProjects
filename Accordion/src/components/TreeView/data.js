@@ -1,0 +1,51 @@
+export const sideMenu=[
+    {
+        label:"Home",
+        to:"/",
+    },
+    {
+        label:"Profile",
+        to:"/profile",
+        children:[
+            {label:"Details",
+                to:"/profile/details",
+                children:[
+                    {
+                        label:"Personal",
+                        to:"/profile/details/personal"
+                    },
+                    {
+                        label:"Professional",
+                        to:"/profile/details/professional",
+                        children:[
+                            {
+                                label:"Experience",
+                                to:"/profile/details/professional/experience"
+                            },
+                            {
+                                label:"Education",
+                                to:"/profile/details/professional/education"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                label:"Settings",
+                to:"/profile/settings",
+                children:[
+                    {
+                        label:"Account",
+                        to:"/profile/settings/account"
+                    },
+                    {
+                        label:"Privacy",
+                        to:"/profile/settings/privacy"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+export default sideMenu;
